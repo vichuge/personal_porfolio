@@ -45,9 +45,9 @@
 
 .top-left {
   position: absolute;
-  top: 70px;
-  left: 320px;
-  font-size: 5px;
+  top: 10%;
+  left: 23%;
+  font-size: .3em;
 }
 
 .about p {
