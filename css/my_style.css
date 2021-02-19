@@ -1,0 +1,76 @@
+:root {
+  --main-color: #ff1e00;
+}
+
+#profile-img-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.icon-white {
+  color: #4a4a4a;
+  /*background-color: white;*/
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.about-grids {
+  border-bottom: 3px solid var(--main-color);
+}
+
+.about-grid:hover a {
+  background: var(--main-color);
+}
+
+.about {
+  background: var(--main-color);
+}
+
+.main-image {
+  width: 70%;
+  height: auto;
+}
+
+.div-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 320px;
+  font-size: 5px;
+}
+
+.about p {
+  text-transform: none;
+  text-align: left;
+  margin: 0;
+}
+
+.p-space {
+  margin-bottom: 17px !important;
+  color: #e7bb7e !important;
+}
+
+.p-space a {
+  color: #35F4DD;
+}
+
+span {
+    background: hsla(0,0%,97%,.65);
+    /*animation: caret 1s steps(1) infinite;*/
+    /*-webkit-animation: pulse 1s infinite;*/
+}
+
+.holder img {
+  -webkit-filter: none;
+}
