@@ -1,5 +1,6 @@
 :root {
-  --main-color: #ff1e00;
+  --my-red: #ff1e00;
+  --main-color: #F6F9FC;
 }
 
 #profile-img-1 {
@@ -21,14 +22,20 @@
 }
 
 .about-grids {
-  border-bottom: 3px solid var(--main-color);
+  border-bottom: 3px solid var(--my-red);
 }
 
 .about-grid:hover a {
-  background: var(--main-color);
+  background: var(--my-red);
 }
 
 .about {
+  background: var(--main-color);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.lastest-works {
   background: var(--main-color);
 }
 
@@ -37,16 +44,50 @@
   height: auto;
 }
 
+.nav-img {
+  background: #DEDDE1;
+  text-align: left;
+  padding: .5% 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cir {
+  padding-right: .25%;
+}
+
+.cir-red {
+  color: #F96256;
+}
+
+.cir-yellow {
+  color:#FDBC3D;
+}
+
+.cir-green {
+  color: #33C948;
+}
+
 .div-img {
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   color: white;
+  background: #5A5D7A;
+  border-radius: 6px;
+  padding-bottom: 3%;
+}
+
+.pad-terminal {
+  padding: 0 3%;
+}
+
+.pad-terminal p {
+  font-family: 'Source Code Pro', monospace;
 }
 
 .top-left {
-  position: absolute;
-  top: 10%;
-  left: 23%;
+  /*position: absolute;*/
+  margin-top: 2%;
   font-size: .3em;
 }
 
@@ -65,12 +106,52 @@
   color: #35F4DD;
 }
 
-span {
-    background: hsla(0,0%,97%,.65);
-    /*animation: caret 1s steps(1) infinite;*/
-    /*-webkit-animation: pulse 1s infinite;*/
+.about .my-name span {
+  background: var(--my-red);
+  /*-webkit-animation: pulse 1s infinite;*/
+}
+
+.final-info span {
+  background: var(--main-color);
 }
 
 .holder img {
   -webkit-filter: none;
+}
+
+.last-header h5 {
+  background: var(--my-red);
+}
+
+.last-header h3 {
+  color: var(--my-red);
+}
+
+.my-name {
+  color: var(--my-red);
+  font-size: 70px;
+  margin-bottom: 5%;
+  font-family: 'Source Code Pro', monospace;
+  text-align: left;
+}
+
+.my-name .social {
+  font-size: 50px;
+  color: black;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 360px) {
+  .pad-terminal p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pad-terminal p {
+    font-size: 20px;
+  }
+  .my-name {
+    font-size: 26px;
+  }
 }
