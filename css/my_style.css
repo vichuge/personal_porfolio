@@ -115,10 +115,6 @@
   background: var(--main-color);
 }
 
-.holder img {
-  -webkit-filter: none;
-}
-
 .last-header h5 {
   background: var(--my-red);
 }
