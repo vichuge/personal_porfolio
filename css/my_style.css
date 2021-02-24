@@ -141,6 +141,16 @@
   margin-top: 2%;
 }
 
+.img-demo {
+  /* 402 x 260 */
+  width: 402px;
+  height: auto;
+}
+
+.go-top a:hover{
+	background: var(--my-red);
+}
+
 @media only screen and (max-width: 360px) {
   .pad-terminal p {
     font-size: 15px;
