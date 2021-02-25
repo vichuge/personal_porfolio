@@ -1,6 +1,6 @@
 :root {
   --my-red: #ff1e00;
-  --main-color: #F6F9FC;
+  --main-color: white;
 }
 
 #profile-img-1 {
@@ -72,7 +72,7 @@
   /*position: relative;*/
   text-align: center;
   color: white;
-  background: #5A5D7A;
+  background: black;
   border-radius: 6px;
   padding-bottom: 3%;
 }
@@ -83,6 +83,7 @@
 
 .pad-terminal p {
   font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
 }
 
 .top-left {
@@ -151,17 +152,32 @@
 	background: var(--my-red);
 }
 
-@media only screen and (max-width: 360px) {
-  .pad-terminal p {
-    font-size: 15px;
+.social-icons{
+  display: flex;
+  justify-content:space-around;
+}
+
+.social-icons p a {
+  color: black;
+}
+
+@media only screen and (max-width: 320px) {
+  .top-left {
+    margin-top: 7%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .pad-terminal p {
-    font-size: 20px;
+  .about {
+    padding-left: 5%;
+    padding-right:5%;
   }
+
+  .pad-terminal p {
+    font-size: 17px;
+  }
+
   .my-name {
-    font-size: 46px;
+    font-size: 44px;
   }
 }
