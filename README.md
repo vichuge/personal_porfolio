@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-> This is a template to my personal portfolio, making the necessary changes to do this.
+> This is a template to my portfolio, making the necessary changes to do this.
 
 ## Built With
 
