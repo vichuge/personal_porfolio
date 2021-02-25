@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/vichuge/personal_porfolio/development/index.html)
+[Live Demo Link](https://vichuge.github.io/personal_porfolio/)
 
 
 ## Getting Started
