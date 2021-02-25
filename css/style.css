@@ -458,7 +458,7 @@ img{max-width:100%;}
 	width:68%;
 }
 .contact{
-	background: url(../images/contact-bg.jpg) no-repeat #E7E7E7;
+	/*background: url(../images/contact-bg.jpg) no-repeat #E7E7E7;*/
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
