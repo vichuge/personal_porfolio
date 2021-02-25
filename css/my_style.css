@@ -165,6 +165,12 @@
   .top-left {
     margin-top: 7%;
   }
+
+  .go-top p {
+    font-family: 'gandhi_sansregular';
+    font-size: 0.7em;
+    line-height: 1em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
