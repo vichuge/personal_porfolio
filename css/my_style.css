@@ -1,0 +1,333 @@
+/* * {
+  border: 1px solid red !important;
+}*/
+
+:root {
+  --my-red: #ff1e00;
+  --main-color: white;
+}
+
+#profile-img-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.icon-white {
+  color: #aaa;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.about-grids {
+  border-bottom: 3px solid var(--my-red);
+  padding-bottom: 2em;
+}
+
+.about-grid:hover a {
+  background: var(--my-red);
+}
+
+.about {
+  background: var(--main-color);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.lastest-works {
+  background: var(--main-color);
+}
+
+.main-image {
+  width: 70%;
+  height: auto;
+}
+
+.nav-img {
+  background: #dedde1;
+  text-align: left;
+  padding: 0.5% 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cir {
+  padding-right: 0.25%;
+}
+
+.cir-red {
+  color: #f96256;
+}
+
+.cir-yellow {
+  color: #fdbc3d;
+}
+
+.cir-green {
+  color: #33c948;
+}
+
+.div-img {
+  /*position: relative;*/
+  text-align: center;
+  color: white;
+  background: black;
+  border-radius: 6px;
+  padding-bottom: 3%;
+}
+
+.pad-terminal {
+  padding: 0 3%;
+}
+
+.pad-terminal p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+}
+
+.top-left {
+  text-align: left;
+  margin-top: 2%;
+  font-size: 0.3em;
+}
+
+.about p {
+  text-transform: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.p-space {
+  margin-bottom: 17px !important;
+  color: #e7bb7e !important;
+}
+
+.p-space a {
+  color: #35f4dd;
+}
+
+.about .my-name span {
+  background: var(--my-red);
+  /*-webkit-animation: pulse 1s infinite;*/
+}
+
+.final-info span {
+  background: var(--main-color);
+}
+
+.holder img {
+  filter: none;
+}
+
+.last-header h5 {
+  background: var(--my-red);
+  font-family: "gandhi_sansregular";
+}
+
+.last-header h3 {
+  color: var(--my-red);
+}
+
+.sub-header {
+  text-align: center;
+}
+
+.sub-header h5 {
+  background: white;
+  font-family: "gandhi_sansregular";
+}
+
+.sub-header h3 {
+  color: black;
+  text-transform: none;
+}
+
+.my-name {
+  color: var(--my-red);
+  font-size: 58px;
+  margin-bottom: 5%;
+  font-family: "Source Code Pro", monospace;
+  text-align: left;
+}
+
+.my-name .social {
+  font-size: 50px;
+  color: black;
+  margin-top: 2%;
+}
+
+.img-demo {
+  /* 402 x 260 */
+  width: 402px;
+  height: auto;
+}
+
+.go-top a:hover {
+  background: var(--my-red);
+}
+
+.social-icons,
+.social-icons2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons p a {
+  color: white;
+}
+
+.social-icons2 p a {
+  color: black;
+}
+
+.user {
+  font-family: "gandhi_sansregular";
+  text-align: center;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user .tech i {
+  text-align: center;
+}
+
+.my-email {
+  font-family: "gandhi_sansregular";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.my-email a {
+  color: white;
+}
+
+.copy-right {
+  color: white;
+}
+
+.go-top {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.devicon-project {
+  font-size: 2.5rem;
+}
+
+.go-top a {
+  padding: 8px 8px;
+  font-size: 0.7em;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 270px) {
+  .go-top p i {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 319px) {
+  .go-top h3 {
+    margin-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1em;
+  }
+
+  .go-top p {
+    line-height: 1em;
+  }
+
+  .go-top a {
+    padding: 3px 3px;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .top-left {
+    margin-top: 7%;
+  }
+
+  .go-top h3 {
+    margin-top: 0px;
+  }
+
+  .go-top p {
+    font-family: "gandhi_sansregular";
+    font-size: 0.7em;
+    line-height: 1em;
+  }
+
+  .my-email a {
+    font-size: 0.8em;
+  }
+
+  .my-name {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 616px) {
+  .go-top h3 {
+    margin-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1em;
+  }
+
+  .go-top p {
+    line-height: 1em;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .about {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .pad-terminal p {
+    font-size: 17px;
+  }
+
+  .my-name {
+    font-size: 44px;
+  }
+
+  .user {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .go-top h3 {
+    margin-top: 10px;
+}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  .go-top h3 {
+    margin-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1em;
+  }
+
+  .go-top p {
+    line-height: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .go-top h3 {
+    margin-top: 10px;
+  }
+
+  .go-top p {
+    line-height: 1.5em;
+  }
+}
