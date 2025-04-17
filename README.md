@@ -24,7 +24,7 @@
 👤 **Victor Pacheco**
 
 - GitHub: [vichuge](https://github.com/vichuge)
-- LinkedIn: [victorpacheco](https://linkedin.com/in/victorpachecoflores/)
+- LinkedIn: [victorpacheco](https://www.linkedin.com/in/vpa12345/)
 
 ## 🤝 Contributing
 
