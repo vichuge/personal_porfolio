@@ -1,41 +1,50 @@
 # Personal Portfolio
 
-> This is a template to my portfolio, making the necessary changes to do this.
+> My personal portfolio, designed as a Safari window on a macOS desktop — menu bar, Dock,
+> a live Terminal, Launchpad-style stack and an "About This Mac" card.
 
-## Built With
+**[Live site →](https://vichuge.github.io/personal_porfolio/)**
 
-- HTML 5
-- CSS 3
-- Javascript
-- Jquery
+## Features
 
-## Live Demo
+- macOS look and feel: translucent menu bar with live clock, Safari toolbar with working
+  traffic lights (minimize to the Dock, zoom), Dock with magnification and notification banners
+- Terminal window that types out my profile as a Node.js REPL session
+- Project gallery with a segmented filter (front end / back end / others)
+- Light and dark appearance (follows the OS, with a manual toggle in the menu bar)
+- Accessible: semantic HTML, keyboard friendly, respects reduced motion and reduced transparency
+- Fast: no frameworks, no build step, WebP images, ~zero JavaScript dependencies
 
-[Live Demo Link](https://vichuge.github.io/personal_porfolio/)
+## Built with
 
+- HTML5, CSS3 (custom properties, `backdrop-filter`, `:has()`), vanilla JavaScript
+- [Devicon](https://devicon.dev/) for technology icons
 
-## Getting Started
+## Getting started
 
-- Clone or download this project on your computer
-- Open it with your favorite browser
+```sh
+git clone https://github.com/vichuge/personal_porfolio.git
+cd personal_porfolio
+python3 -m http.server 8000   # then open http://localhost:8000
+```
+
+Any static server works. Deployment is GitHub Pages from `main`.
+
+Contributing or using an AI agent? Read [AGENTS.md](AGENTS.md) first — it documents the design
+system and conventions.
 
 ## Author
 
 👤 **Victor Pacheco**
 
-- GitHub: [vichuge](https://github.com/vichuge)
-- LinkedIn: [victorpacheco](https://www.linkedin.com/in/vpa12345/)
+- GitHub: [@vichuge](https://github.com/vichuge)
+- LinkedIn: [Victor Pacheco](https://www.linkedin.com/in/vpa12345/)
+- X: [@VP90429](https://x.com/VP90429)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome.
-
-Feel free to check the [issues page](https://github.com/vichuge/personal_porfolio/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+Issues and suggestions are welcome on the [issues page](https://github.com/vichuge/personal_porfolio/issues).
 
 ## 📝 License
 
-This project is [Creative Commons Legal Code](https://github.com/vichuge/personal_porfolio/blob/development/LICENSE) licensed.
+This project is licensed under [CC BY 3.0](LICENSE).
